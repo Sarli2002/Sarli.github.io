@@ -1,0 +1,142 @@
+body{
+    margin: 0%;
+    padding: 0%;
+  }
+
+   
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #252A30;
+    overflow: hidden;
+    position:fixed;
+    top:0pt;
+    width: 100%;
+   }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding:21px;
+    text-decoration: none;
+    font-size: 27px;
+    margin-right: 70px;
+    
+   }
+  
+  .topnav a.home{
+    float:left;
+    color: white;
+    text-align: center;
+    padding: 19px 17px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 99px;
+    font-family: 'Lobster', cursive;
+   
+  }
+  
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(197, 185, 13);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    text-decoration: underline ;
+  }
+  .skills{
+  background-color:black;
+  height:650px;
+  width:100%;
+  padding-top: 36px;
+  margin-top: 20px;
+  
+  
+  }
+  .skills .title {
+    font-size: 54px;
+    text-align: center;
+    
+    margin-top: 24px;
+     text-decoration: underline;
+       color: aqua;
+  }
+.skills .skills-content{
+  height:400px;
+  width:70%;
+  margin-left: 211px;
+  margin-right:193px;
+  color:white;
+}
+
+
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+.skills .skills-content .left p{
+  text-align: justify;
+  margin-top: 42px;
+}
+.skills .skills-content .left a{
+  display: inline-block;
+  background: crimson;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+
+.skills .skills-content .right .bars{
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.skills-content .right .html::before{
+    width: 90%;
+  }
+  .skills-content .right .css::before{
+      width: 60%;
+  }
+  .skills-content .right .js::before{
+      width: 30%;
+  }
+  .skills-content .right .php::before{
+      width: 50%;
+  }
+  .skills-content .right .mysql::before{
+      width: 80%;
+  }
+  

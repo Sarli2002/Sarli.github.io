@@ -1,0 +1,161 @@
+body{
+  margin: 0%;
+  padding: 0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #252A30;
+ /* overflow: hidden;*/
+  position:fixed;
+  top:0pt;
+  width: 100%;
+  display:block;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a{
+  float: right;
+  color: white;
+  text-align: center;
+  padding:21px;
+  display: block;
+  text-decoration: none;
+  font-size: 27px;
+  margin-right: 70px;
+  
+ }
+
+.topnav a.home{
+  float:left;
+  color: white;
+  text-align: center;
+  padding: 19px 17px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 99px;
+  font-family: 'Lobster', cursive;
+ 
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:rgb(197, 185, 13);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  text-decoration: underline ;
+}
+
+.content{
+  /*background-image: url('background3.jpg');
+  background-repeat: no-repeat;*/
+height:650px;
+width:100%;
+background-color: black;
+
+display: flex;
+overflow:hidden;
+padding-top: 106px;
+
+
+}
+
+
+.box1{
+  height:488px;
+  width:584px;
+ /*background-color: red;*/
+  display:flex;
+  color:white;
+  margin-left: 156px;
+  padding:10px;
+  /*letter-spacing: 3px;*/
+  margin-top: 35px;
+  margin-right: 77px;
+  
+
+}
+
+
+.name{
+  font-size:52px;
+    font-weight: 600;
+    margin-left: -3px;
+    padding-left:17px;
+    word-spacing: 5px;
+    
+}
+.about{
+  font-size: 18px;
+  text-align: justify;
+  padding-top:8px;
+  margin:5px;
+  /*font-family:Dongle,cursive;*/
+}
+.links {
+  border:none;
+ 
+  text-decoration: none;
+  padding-top: 12px;
+ color:yellow;
+ margin-left: 16px;
+margin-top: 19px;
+}
+button.Skills{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 84px;
+  padding-left: 84px;
+  
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+  display:inline-block;
+  border: 5px solid red;
+  border-radius: 40px;
+}
+button a{
+  text-decoration: none;
+  color: black;
+  
+  
+}
+button.Hobbies{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 39px;
+  padding-left: 39px;
+  /*background-color: aqua;*/
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+  display:inline-block;
+  border: 5px solid red ;
+  border-radius: 40px;
+}
+button:hover{
+  background-color: aqua;
+}
+.box2{
+  float:right;
+  background-color: green;
+  margin-top: 35px;
+  width: 387px;
+height:411px;
+background-image: url("myphoto-removebg-preview.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+

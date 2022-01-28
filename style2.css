@@ -1,0 +1,121 @@
+body{
+    margin: 0%;
+    padding: 0%;
+  }
+ 
+   
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #252A30;
+    overflow: hidden;
+    position:fixed;
+    top:0pt;
+    width: 100%;
+  
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding:21px;
+    text-decoration: none;
+    font-size: 27px;
+    margin-right: 70px;
+    
+   }
+  
+  .topnav a.home{
+    float:left;
+    color: white;
+    text-align: center;
+    padding: 19px 17px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 99px;
+    font-family: 'Lobster', cursive;
+   
+  }
+  
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(197, 185, 13);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    text-decoration: underline ;
+  }
+  .container{
+    
+  height:650px;
+  width:100%;
+  background-color:black;
+  padding-top: 36px;
+  margin-top: 58px;
+  color:white;
+  }
+ 
+
+
+
+.services .serv-content{
+  display: flex;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 43px;
+justify-content: space-between;
+}
+
+
+
+.services .serv-content .card{
+  width: 325px;
+  background: #222;
+  text-align: center;
+  border-radius: 20px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+  background: crimson;
+}
+
+.services .serv-content .card .music{
+  size: 5px;
+  color: crimson;
+  background-color: white;
+  
+}
+.services .serv-content .card .dance{
+
+  width: 200px;
+  height: 200px;
+
+  background-color: white;
+}
+
+.services .heading {
+  font-size: 54px;
+  text-align: center;
+  
+  
+   text-decoration: underline;
+     color: aqua;}
+
+
+
+
+
+  
+.services .serv-content .card .text{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+  
