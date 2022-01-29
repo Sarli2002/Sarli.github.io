@@ -154,18 +154,23 @@ body{
         margin-top: 119px;
       }
     }
-   @media(max-width:445px){
-   .max-width{ margin-top: 244px;
-     }
-   }
+   @media(max-width:415px){
+   .skills{
+    height: 637px;
+    margin-top: 134px;
   
-   @media(max-width:297px){
+   }
    .skills-content{
-    margin-left: 137px;}
-  .column .right{
-    margin-right: 168px;
-    margin-left: -145px;
-  }
+    margin-left: 150px
+   }
+   .skills-content .right{
+    margin-right: 157px;
+    margin-left: -146px;
+    margin-top: 44px;
+  
+   }
+
+
   }
    
    

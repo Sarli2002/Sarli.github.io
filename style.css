@@ -269,11 +269,14 @@ width: 338px;
         .box1 .about{
           font-size: 13px;
         }
-      /*  button .hobbies{
+       button .hobbies{
           padding-right: 36px;
-          padding-left: 36px;
-
-        }*/
+          padding-left: 36px;}
+         button .Skills{
+          padding-right: 59px;
+          padding-left: 59px;
+         }
+        
         
       }   
       @media(max-width:300px){
@@ -297,12 +300,12 @@ width: 338px;
       margin-left: 34px;
       width: 166.133px;
     }
-    button .Hobbies {
+   .links button .Hobbies {
       font-size: 15px;
       padding-left: 11px;
 padding-right: 11px;
     }
-    button .Skills{
+   .links button .Skills{
       padding-left: 35px;
 padding-right: 35px;
 font-size: 15px;
