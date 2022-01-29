@@ -172,6 +172,18 @@ body{
 
 
   }
-   
-   
-  
+  @media(max-width:700px){
+    .skills-content .right{
+      margin-left: 5px;
+margin-right: 25px;
+    }
+    .skills .skills-content{
+      margin-left: 117px;
+    }
+  }
+  @media(max-width:386px){
+    .skills .skills-content {
+      margin-left: 64px;
+      margin-right: 47px;
+    }
+  }
