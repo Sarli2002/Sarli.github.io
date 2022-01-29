@@ -6,11 +6,12 @@ body{
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #252A30;
- /* overflow: hidden;*/
+  overflow: hidden;
   position:fixed;
   top:0pt;
   width: 100%;
   display:block;
+  text-align: center;
   
 }
 
@@ -61,18 +62,19 @@ background-color: black;
 display: flex;
 overflow:hidden;
 padding-top: 106px;
-
+flex-wrap: wrap;
+justify-content: center;
 
 }
 
 
 .box1{
-  height:488px;
+  height:470px;
   width:584px;
  /*background-color: red;*/
   display:flex;
   color:white;
-  margin-left: 156px;
+  margin-left: 18px;
   padding:10px;
   /*letter-spacing: 3px;*/
   margin-top: 35px;
@@ -82,11 +84,11 @@ padding-top: 106px;
 }
 
 
-.name{
+.name .text{
   font-size:52px;
     font-weight: 600;
     margin-left: -3px;
-    padding-left:17px;
+    padding-left:6px;
     word-spacing: 5px;
     
 }
@@ -137,13 +139,14 @@ button.Hobbies{
   display:inline-block;
   border: 5px solid red ;
   border-radius: 40px;
+  margin-right: 37px;
 }
 button:hover{
   background-color: aqua;
 }
 .box2{
   float:right;
-  background-color: green;
+ /* background-color: green;*/
   margin-top: 35px;
   width: 387px;
 height:411px;
@@ -152,10 +155,166 @@ background-size: cover;
 background-repeat: no-repeat;
 
 }
+@media( max-width:1086px){
+  .box2{
+    height: 348px;
+width: 338px;
+  }
+  .box2{
+    height: 354px;
+  }
+}
+@media(max-width:1036px){
+  .content{
+    height: 785px;
+  }
+  .box1{
+    margin-top: -8px;
+  }
+  .box2{
+    margin-top: -125px;
+  }
+}
+@media(max-width:859px){
+  .content{
+    height:818px;
+  }
+  .box1{
+    margin-top: 49px;
+  }
+}
 
 
+@media (max-width:914px){
+  .box2{margin-top: -85px;
+    height: 262px;
+    width: 216px;}
+  }
+  @media (max-width:976px){
+    .box2{  width: 278px;
+      height: 334px;
+      margin-top: -86px;
+    }}
 
+    @media(max-width:662px){
+      .box2{
+        margin-top: -30px;
+      }
+      .links{
+        margin-right: 2px;
+        margin-left: 158px;
+        justify-content: center;
+      }
+      }
+      @media( max-width:653px){
+        .content{
+          height: 928px;
+        }
+        .name .text{
+          font-size: 49px;
+        }
+      }
 
+      @media(max-width:589px){
+        .name .text{
+          font-size: 40px;
+        
+        }
+        .links{
+          margin-top: 45px;
+        }
+      }
+      @media(max-width:563px){
+        .box1{
+          margin-left: 38px;
+          margin-right: 41px;
+        }
+        .links{
+          margin-left: 107px;
+        }
+        button .hobbies{
+          padding-left: 37px;
+          padding-right: 37px;
+        
+        }
+      }
+      @media(max-width:488px){
+       .name .text{font-size: 32px;}
+       .links{
+        margin-left: 67px;
+       }
+       button .hobbies{
+        padding-left: 30px;
+        padding-right: 38px;
+      
+       }
+       button .skills{
+        padding-left: 76px;
+        padding-right: 80px;
+      
+       }
+      }
+      @media(max-width:419px){
+        .content{
+          margin-top: 133px;
+          
+        }
+        .box1{
+          margin-top: 62px;
+        }
+       .box1 .name .text{
+          margin-left: 43px;
+          font-size: 25px;
+        }
+        .box1 .about{
+          font-size: 13px;
+        }
+      /*  button .hobbies{
+          padding-right: 36px;
+          padding-left: 36px;
 
+        }*/
+        
+      }   
+      @media(max-width:300px){
+      .box1{
+        width: 200px;
+        margin-top: 45px;
+      }
+      .name{
+        width: 197.133px;
+      }
+      .box1 .name .text
+      {
+        margin-left: -1px;
+        font-size: 14px;
+        word-spacing: 11px;
+      }
+      .name .about{
+        font-size: 11px;
+      }
+    .links{
+      margin-left: 34px;
+      width: 166.133px;
+    }
+    button .Hobbies {
+      font-size: 15px;
+      padding-left: 11px;
+padding-right: 11px;
+    }
+    button .Skills{
+      padding-left: 35px;
+padding-right: 35px;
+font-size: 15px;
+    }
+  }
 
+  
 
+      
+      
+        
+      
+      
+    
+    

@@ -48,9 +48,10 @@ body{
   .topnav a.active {
     text-decoration: underline ;
   }
+
   .skills{
   background-color:black;
-  height:650px;
+  height:540px;
   width:100%;
   padding-top: 36px;
   margin-top: 20px;
@@ -60,8 +61,8 @@ body{
   .skills .title {
     font-size: 54px;
     text-align: center;
+    margin-top: 37px;
     
-    margin-top: 24px;
      text-decoration: underline;
        color: aqua;
   }
@@ -72,18 +73,21 @@ body{
   margin-right:193px;
   color:white;
 }
+.skills-content .right{
+  margin-top: 65px;
+}
 
 
-.skills .skills-content .left .text{
+/*.skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
     
-}
-.skills .skills-content .left p{
+}*/
+/*.skills .skills-content .left p{
   text-align: justify;
   margin-top: 42px;
-}
+}*/
 .skills .skills-content .left a{
   display: inline-block;
   background: crimson;
@@ -139,4 +143,30 @@ body{
   .skills-content .right .mysql::before{
       width: 80%;
   }
+  @media(max-width:900px){
+    .skills-content .right{
+      margin-left: -61px;
+      margin-right: 129px;
+    }
+    }
+    @media(max-width:859px){
+      .max-width{
+        margin-top: 119px;
+      }
+    }
+   @media(max-width:445px){
+   .max-width{ margin-top: 244px;
+     }
+   }
+  
+   @media(max-width:297px){
+   .skills-content{
+    margin-left: 137px;}
+  .column .right{
+    margin-right: 168px;
+    margin-left: -145px;
+  }
+  }
+   
+   
   

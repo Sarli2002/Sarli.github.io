@@ -58,6 +58,7 @@ body{
   padding-top: 36px;
   margin-top: 58px;
   color:white;
+  justify-content: center;
   }
  
 
@@ -69,6 +70,7 @@ body{
   margin-right: 55px;
   margin-top: 43px;
 justify-content: space-between;
+flex-wrap: wrap;
 }
 
 
@@ -118,4 +120,14 @@ justify-content: space-between;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
-  
+@media(max-width:419px){
+  .container{
+    height: 1500px;
+    margin-top: 245px;
+  }
+}
+@media(max-width:285px){
+.services .serv-content .card{margin-left: -37px;
+
+}
+}
